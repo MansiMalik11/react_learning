@@ -1,9 +1,11 @@
-import Header,{Fruit, Color, User} from "./Header"
+import Task from "./Task"
+import Header, {Fruit, Color, User} from "./Header"
 
 function App(){
   return (
     <div>
       <Header/>
+      <Task />
       <Fruit />
       <Color />
       <h1>hello world</h1>
